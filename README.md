@@ -2,15 +2,9 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:111111&height=140&section=header&text=MARIO&fontSize=46&fontColor=ffffff&fontAlignY=50&desc=sistemas%20%C2%B7%20software%20%C2%B7%20ciberseguridad&descAlignY=72&descSize=13&descColor=8b8b8b" width="100%" />
 
-<img src="repo/claudesito.png" width="130" alt="Slashi" />
-
-<br/><br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=300&size=16&pause=1400&color=8B8B8B&center=true&vCenter=true&width=420&lines=Estudiante+de+sistemas;Fundador+de+2A2G;Hermosillo%2C+Sonora" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=300&size=16&pause=1400&color=8B8B8B&center=true&vCenter=true&width=480&lines=Ing.+en+Sistemas+de+Informaci%C3%B3n;Fundador+de+2A2G;Hermosillo%2C+Sonora" alt="Typing SVG" />
 
 </div>
-
-<br/>
 
 ---
 
@@ -76,7 +70,7 @@ Fundador de **2A2G**. Aprendiendo detección de intrusos con ML y arquitectura d
 
 <br/><br/>
 
-<a href="https://instagram.com/2a2g.dev"><img src="https://img.shields.io/badge/Instagram-000000?style=flat-square&logo=instagram&logoColor=white" /></a>
+<a href="https://www.instagram.com/10067.__/"><img src="https://img.shields.io/badge/Instagram-000000?style=flat-square&logo=instagram&logoColor=white" /></a>
 <a href="https://2a2gcompany.com"><img src="https://img.shields.io/badge/2a2gcompany.com-000000?style=flat-square&logo=googlechrome&logoColor=white" /></a>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:111111,100:000000&height=60&section=footer" width="100%" />
