@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 70" width="900" height="70">
+  <defs>
+    <filter id="goo" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="12" result="b"/>
+      <feColorMatrix in="b" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 22 -9"/>
+    </filter>
+    <clipPath id="c"><rect width="900" height="70" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="900" height="70" fill="#000"/>
+    <g filter="url(#goo)" opacity=".95">
+      <circle r="26" cx="150" cy="20" fill="#262626"><animate attributeName="cy" values="20;60;20" dur="8s" repeatCount="indefinite"/></circle>
+      <circle r="22" cx="380" cy="60" fill="#3a2a78"><animate attributeName="cy" values="60;10;60" dur="10s" repeatCount="indefinite"/></circle>
+      <circle r="28" cx="610" cy="15" fill="#2e2e2e"><animate attributeName="cy" values="15;60;15" dur="12s" repeatCount="indefinite"/></circle>
+      <circle r="22" cx="780" cy="55" fill="#4a35a0"><animate attributeName="cy" values="55;12;55" dur="9s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220">
+  <defs>
+    <filter id="goo" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="16" result="b"/>
+      <feColorMatrix in="b" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 22 -9"/>
+    </filter>
+    <radialGradient id="fade" cx="50%" cy="50%" r="60%">
+      <stop offset="0" stop-color="#000" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".1"/>
+    </radialGradient>
+    <clipPath id="c"><rect width="900" height="220" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="900" height="220" fill="#000"/>
+    <g filter="url(#goo)" opacity=".95">
+      <circle r="52" cx="120" cy="60" fill="#262626">
+        <animate attributeName="cy" values="60;180;60" dur="9s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="120;170;120" dur="11s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="40" cx="330" cy="190" fill="#3a2a78">
+        <animate attributeName="cy" values="190;40;190" dur="12s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="330;290;330" dur="8s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="60" cx="520" cy="50" fill="#2e2e2e">
+        <animate attributeName="cy" values="50;175;50" dur="14s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="520;570;520" dur="10s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="44" cx="720" cy="180" fill="#4a35a0">
+        <animate attributeName="cy" values="180;45;180" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="720;680;720" dur="13s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="50" cx="840" cy="70" fill="#222">
+        <animate attributeName="cy" values="70;170;70" dur="11s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="840;800;840" dur="9s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="34" cx="450" cy="110" fill="#333">
+        <animate attributeName="cy" values="110;30;190;110" dur="16s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <rect width="900" height="220" fill="url(#fade)"/>
+    <text x="450" y="112" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="14" fill="#fff">MARIO</text>
+    <text x="450" y="152" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" letter-spacing="6" fill="#a8a8a8">SISTEMAS · SOFTWARE · CIBERSEGURIDAD</text>
+  </g>
+</svg>
