@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="repo/banner.svg" width="100%" alt="MARIO" />
+<img src="banner.svg" width="100%" alt="MARIO" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=300&size=16&pause=1400&color=8B8B8B&center=true&vCenter=true&width=480&lines=Ing.+en+Sistemas+de+Informaci%C3%B3n;Fundador+de+2A2G;Hermosillo%2C+Sonora" alt="Typing SVG" />
 
@@ -11,7 +11,7 @@
 <table>
 <tr>
 <td width="200" align="center">
-<img src="repo/mario(2).png" width="180" alt="Mario" />
+<img src="mario%20(2).png" width="180" alt="Mario" />
 </td>
 <td>
 
@@ -53,7 +53,7 @@ Fundador de **2A2G**. Aprendiendo detección de intrusos con ML y arquitectura d
 
 <br/><br/>
 
-<img src="repo/2a2g.png" width="200" alt="2A2G" />
+<img src="2a2g.png" width="200" alt="2A2G" />
 
 </div>
 
@@ -75,6 +75,6 @@ Fundador de **2A2G**. Aprendiendo detección de intrusos con ML y arquitectura d
 <a href="https://www.instagram.com/10067.__/"><img src="https://img.shields.io/badge/Instagram-000000?style=flat-square&logo=instagram&logoColor=white" /></a>
 <a href="https://2a2gcompany.com"><img src="https://img.shields.io/badge/2a2gcompany.com-000000?style=flat-square&logo=googlechrome&logoColor=white" /></a>
 
-<img src="repo/footer.svg" width="100%" alt="" />
+<img src="footer.svg" width="100%" alt="" />
 
 </div>
