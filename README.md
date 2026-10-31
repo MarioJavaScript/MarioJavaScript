@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:111111&height=140&section=header&text=MARIO&fontSize=46&fontColor=ffffff&fontAlignY=50&desc=sistemas%20%C2%B7%20software%20%C2%B7%20ciberseguridad&descAlignY=72&descSize=13&descColor=8b8b8b" width="100%" />
 
-<img src="assets/slashi.png" width="130" alt="Slashi" />
+<img src="assets/claudesito.png" width="130" alt="Slashi" />
 
 <br/><br/>
 
@@ -57,7 +57,7 @@ Fundador de **2A2G**. Aprendiendo detección de intrusos con ML y arquitectura d
 
 <br/><br/>
 
-<img src="assets/2a2g-logo.png" width="200" alt="2A2G" />
+<img src="assets/2a2g.png" width="200" alt="2A2G" />
 
 </div>
 
