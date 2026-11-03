@@ -11,7 +11,7 @@
 <table>
 <tr>
 <td width="200" align="center">
-<img src="mario%20(2).png" width="180" alt="Mario" />
+<img src="mario.png" width="180" alt="Mario" />
 </td>
 <td>
 
