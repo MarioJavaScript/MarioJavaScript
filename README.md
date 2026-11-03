@@ -59,7 +59,7 @@ Fundador de **2A2G**. Aprendiendo detección de intrusos con ML y arquitectura d
 
 | | |
 |---|---|
-| **NIDS** | Detección de intrusos con Zeek + Isolation Forest, Elasticsearch, Grafana y bloqueo automático por firewall |
+| **NEXORA** | IA defensiva para Ciberseguridad |
 | **Menuonl** | Menús y sitios para restaurantes |
 | **2A2G** | Empresa de desarrollo de software |
 
