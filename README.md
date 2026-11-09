@@ -59,10 +59,9 @@ Fundador de **2A2G**. Aprendiendo detección de intrusos con ML y arquitectura d
 
 | | |
 |---|---|
-| **NEXORA** | IA defensiva para Ciberseguridad |
-| **Menuonl** | Menús y sitios para restaurantes |
-| **2A2G** | Empresa de desarrollo de software |
-
+| **VELORA** | IA defensiva para Ciberseguridad |
+| **Menubly** | Menús y sitios para restaurantes: [menubly.2a2gcompany.com](https://menubly.2a2gcompany.com/)  |
+| **2A2G** | Empresa de desarrollo de software: [2a2gcompany.com](https://2a2gcompany.com) |
 ---
 
 <div align="center">
