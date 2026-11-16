@@ -1,18 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 70" width="900" height="70">
-  <defs>
-    <filter id="goo" x="-20%" y="-100%" width="140%" height="300%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="12" result="b"/>
-      <feColorMatrix in="b" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 22 -9"/>
-    </filter>
-    <clipPath id="c"><rect width="900" height="70" rx="12"/></clipPath>
-  </defs>
-  <g clip-path="url(#c)">
-    <rect width="900" height="70" fill="#000"/>
-    <g filter="url(#goo)" opacity=".95">
-      <circle r="26" cx="150" cy="20" fill="#262626"><animate attributeName="cy" values="20;60;20" dur="8s" repeatCount="indefinite"/></circle>
-      <circle r="22" cx="380" cy="60" fill="#3a2a78"><animate attributeName="cy" values="60;10;60" dur="10s" repeatCount="indefinite"/></circle>
-      <circle r="28" cx="610" cy="15" fill="#2e2e2e"><animate attributeName="cy" values="15;60;15" dur="12s" repeatCount="indefinite"/></circle>
-      <circle r="22" cx="780" cy="55" fill="#4a35a0"><animate attributeName="cy" values="55;12;55" dur="9s" repeatCount="indefinite"/></circle>
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 90" width="900" height="90" role="img" aria-label="istp // just tryna figure it all out">
+<title>istp</title>
+<defs>
+<clipPath id="c"><rect width="900" height="90" rx="14"/></clipPath>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#06080b"/><stop offset="1" stop-color="#11161c"/></linearGradient>
+<radialGradient id="mid" cx="450" cy="45" r="300" gradientTransform="matrix(1 0 0 .22 0 35)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#040507" stop-opacity=".9"/><stop offset="1" stop-color="#040507" stop-opacity="0"/></radialGradient>
+<filter id="blur" x="-20%" y="-80%" width="140%" height="260%"><feGaussianBlur stdDeviation="10"/></filter>
+<filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="3" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .55 0"/></filter>
+</defs>
+<g clip-path="url(#c)">
+<rect width="900" height="90" fill="url(#sky)"/>
+<path d="M-10 90V66.6H34.8V77.7H89.4V63.9H115.5V73.8H150.1V78H200.2V71.2H253.3V61.8H279.6V80.3H321.9V65H372.8V67.5H420.5V81.7H476.2V67.9H531.4V68.5H563.5V67.7H598.3V70.5H644.8V73.4H672V65.5H705.7V64.9H759.5V78.3H800.4V76.2H847.1V78.2H903V81.7H958V90Z" fill="#0d1116"/>
+<path d="M12.8 75.3h3v4h-3zM57.4 82.5h3v4h-3zM54.1 82.5h3v4h-3zM98.4 75.2h3v4h-3zM136.8 79.9h3v4h-3zM127.1 78h3v4h-3zM158.5 82.2h3v4h-3zM223.3 78.7h3v4h-3zM692.8 76.4h3v4h-3zM712.1 79.3h3v4h-3zM781.3 82.4h3v4h-3zM820.4 80.2h3v4h-3zM915.2 86.5h3v4h-3z" fill="#9fb2c6" opacity=".45"/>
+<path d="M-10 30Q200 52 450 34T910 30" fill="none" stroke="#1b2229" stroke-width="1"/>
+<g filter="url(#blur)" fill="#3a4450" opacity=".3"><ellipse cx="220" cy="70" rx="260" ry="12"/><ellipse cx="700" cy="66" rx="260" ry="12"/><animateTransform attributeName="transform" type="translate" values="0 0;40 0;0 0" dur="30s" repeatCount="indefinite"/></g>
+<g stroke="#c8d2dc" stroke-width="0.6" stroke-linecap="round" opacity="0.22"><g><path d="M282.8 34.5l-1.7 9.4M933.2 16.5l-1.7 9.3M94.5 41.6l-1.6 9.1M543 77l-0.9 5.2M266 42.1l-1.6 9.2M257.9 18.3l-1.6 9.1M661.1 89.6l-1.5 8.5M82.5 54.7l-1.4 8M385.1 27.6l-1 5.6M45.1 82.8l-1 5.8M655.4 1.8l-1.7 9.7M528.6 46.9l-1.7 9.3M177.4 83.7l-1.1 6M495.3 69l-1.2 6.8M164.3 62.6l-1 5.8M470.7 65.4l-1.7 9.5M421.1 6l-1.4 8M678.5 4.3l-1.6 9M775.3 88.3l-1.4 7.7M605.5 12.1l-1.5 8.3M875.9 63.2l-1.5 8.6M334.7 30.2l-1.8 10M298.7 66.9l-1.7 9.7M144.3 71.8l-1.1 6.1M561.8 88.5l-1.1 6.1M262.1 26.6l-1 5.8M221.1 23.6l-1.6 9.2M412.4 3.7l-1 5.3M728.5 83.7l-1 5.6M251.9 71l-1.4 7.8M567.1 23.3l-1.4 7.7M591.7 67.9l-1.8 9.8M718.6 86.4l-1.4 7.7M585.5 9.9l-1.6 8.8M-16 47.9l-1.3 7.5M377.1 7.7l-0.9 5.1M53.7 16.1l-1.5 8.1M132.9 50.4l-1.3 7.4M899.2 33.5l-1.4 7.9M108.2 41.9l-1.8 9.8M156.1 30l-1.1 6M411.6 12.2l-1.3 7.2M344.4 57.5l-1.8 9.9M294.3 39.2l-1 5.8M96.9 61.8l-1.6 8.9M99.2 25.5l-1.7 9.6M341.7 67.1l-1.1 6.3M849.1 77.6l-1.3 7.5M856.9 50.2l-1.8 9.8M595.4 22.9l-1.5 8.6M-19.1 60.4l-1.6 9.1M80.3 44.6l-1.5 8.5M512.7 29.1l-1.2 6.6M673.5 1.1l-1.4 8M398.7 38l-1.6 8.9M16.2 64.9l-1.8 9.9M803.8 3.9l-1.4 7.8M768.8 11.5l-1.4 7.5M149.2 68.1l-1.8 9.9M440.9 7.3l-1.7 9.6M693.9 64.8l-1.1 6.3M868.7 56.2l-1.3 7.1M392.7 59.5l-1.8 9.9M235.2 47.8l-1.5 8.1M860.7 75.1l-1.2 6.8M510.8 83.7l-1.1 6.1M262.5 63.8l-1.5 8.2M448.1 61l-1.7 9.3M459 3l-1.6 8.8M861.1 62.3l-1.6 8.9"/><path d="M282.8 34.5l-1.7 9.4M933.2 16.5l-1.7 9.3M94.5 41.6l-1.6 9.1M543 77l-0.9 5.2M266 42.1l-1.6 9.2M257.9 18.3l-1.6 9.1M661.1 89.6l-1.5 8.5M82.5 54.7l-1.4 8M385.1 27.6l-1 5.6M45.1 82.8l-1 5.8M655.4 1.8l-1.7 9.7M528.6 46.9l-1.7 9.3M177.4 83.7l-1.1 6M495.3 69l-1.2 6.8M164.3 62.6l-1 5.8M470.7 65.4l-1.7 9.5M421.1 6l-1.4 8M678.5 4.3l-1.6 9M775.3 88.3l-1.4 7.7M605.5 12.1l-1.5 8.3M875.9 63.2l-1.5 8.6M334.7 30.2l-1.8 10M298.7 66.9l-1.7 9.7M144.3 71.8l-1.1 6.1M561.8 88.5l-1.1 6.1M262.1 26.6l-1 5.8M221.1 23.6l-1.6 9.2M412.4 3.7l-1 5.3M728.5 83.7l-1 5.6M251.9 71l-1.4 7.8M567.1 23.3l-1.4 7.7M591.7 67.9l-1.8 9.8M718.6 86.4l-1.4 7.7M585.5 9.9l-1.6 8.8M-16 47.9l-1.3 7.5M377.1 7.7l-0.9 5.1M53.7 16.1l-1.5 8.1M132.9 50.4l-1.3 7.4M899.2 33.5l-1.4 7.9M108.2 41.9l-1.8 9.8M156.1 30l-1.1 6M411.6 12.2l-1.3 7.2M344.4 57.5l-1.8 9.9M294.3 39.2l-1 5.8M96.9 61.8l-1.6 8.9M99.2 25.5l-1.7 9.6M341.7 67.1l-1.1 6.3M849.1 77.6l-1.3 7.5M856.9 50.2l-1.8 9.8M595.4 22.9l-1.5 8.6M-19.1 60.4l-1.6 9.1M80.3 44.6l-1.5 8.5M512.7 29.1l-1.2 6.6M673.5 1.1l-1.4 8M398.7 38l-1.6 8.9M16.2 64.9l-1.8 9.9M803.8 3.9l-1.4 7.8M768.8 11.5l-1.4 7.5M149.2 68.1l-1.8 9.9M440.9 7.3l-1.7 9.6M693.9 64.8l-1.1 6.3M868.7 56.2l-1.3 7.1M392.7 59.5l-1.8 9.9M235.2 47.8l-1.5 8.1M860.7 75.1l-1.2 6.8M510.8 83.7l-1.1 6.1M262.5 63.8l-1.5 8.2M448.1 61l-1.7 9.3M459 3l-1.6 8.8M861.1 62.3l-1.6 8.9" transform="translate(8 -90)"/><animateTransform attributeName="transform" type="translate" from="0 0" to="-8 90" dur="1.4s" repeatCount="indefinite"/></g></g>
+<g stroke="#c8d2dc" stroke-width="0.8" stroke-linecap="round" opacity="0.3"><g><path d="M715.7 22.8l-1.8 10M446.3 48.8l-2.5 13.8M621.7 61.5l-2.1 11.5M623.9 54.7l-2.6 14.3M407.3 22.4l-2.5 14.1M370.4 53.8l-2.3 12.5M483.3 63.2l-2.5 13.8M658.1 70.3l-2.3 12.6M862.3 21.9l-2.1 11.5M798.3 18.9l-1.9 10.3M929.4 4.6l-2.5 13.9M440.9 5.4l-2.1 11.7M76.5 38l-2.4 13.6M300 46.6l-2.1 11.7M900.3 0.3l-2.4 13.2M75.8 61.2l-2.4 13.3M516.7 1.4l-1.9 10.7M152.3 60.4l-2 10.9M678.6 30l-1.7 9.7M404.9 72.3l-1.8 9.8M740 50.9l-2.4 13.2M-36.4 54l-2.4 13.6M573 58.4l-2.5 13.7M293.1 8.7l-1.9 10.5M143.1 59.6l-1.8 10.1M512.6 30.6l-1.8 10M836.4 48.6l-1.8 10.1M239.1 84.8l-2.5 13.7M247 72l-2 11.3M317.7 36.5l-2.6 14.5"/><path d="M715.7 22.8l-1.8 10M446.3 48.8l-2.5 13.8M621.7 61.5l-2.1 11.5M623.9 54.7l-2.6 14.3M407.3 22.4l-2.5 14.1M370.4 53.8l-2.3 12.5M483.3 63.2l-2.5 13.8M658.1 70.3l-2.3 12.6M862.3 21.9l-2.1 11.5M798.3 18.9l-1.9 10.3M929.4 4.6l-2.5 13.9M440.9 5.4l-2.1 11.7M76.5 38l-2.4 13.6M300 46.6l-2.1 11.7M900.3 0.3l-2.4 13.2M75.8 61.2l-2.4 13.3M516.7 1.4l-1.9 10.7M152.3 60.4l-2 10.9M678.6 30l-1.7 9.7M404.9 72.3l-1.8 9.8M740 50.9l-2.4 13.2M-36.4 54l-2.4 13.6M573 58.4l-2.5 13.7M293.1 8.7l-1.9 10.5M143.1 59.6l-1.8 10.1M512.6 30.6l-1.8 10M836.4 48.6l-1.8 10.1M239.1 84.8l-2.5 13.7M247 72l-2 11.3M317.7 36.5l-2.6 14.5" transform="translate(10 -90)"/><animateTransform attributeName="transform" type="translate" from="0 0" to="-10 90" dur="0.9s" repeatCount="indefinite"/></g></g>
+<rect width="900" height="90" fill="url(#mid)"/>
+<rect width="900" height="90" filter="url(#grain)" opacity=".07"/>
+<text x="450" y="51" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="18" fill="#a2aab3">istp <tspan fill="#5c6670">//</tspan> just tryna figure it all out</text>
+</g>
+<rect x=".5" y=".5" width="899" height="89" rx="13.5" fill="none" stroke="#1f262e"/>
 </svg>
