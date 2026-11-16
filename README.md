@@ -1,8 +1,8 @@
-<div align="center">
+<div align="left">
 
 <img src="banner.svg" width="100%" alt="MarioJavaScript" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&pause=1600&color=7A7A7A&center=true&vCenter=true&width=560&lines=ing.+en+sistemas+de+informaci%C3%B3n;construyendo+velora+%2F%2F+ids+con+ml;m%C3%BAsica+triste+mientras+compila" alt="ing. en sistemas de información" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&pause=1600&color=7A7A7A&center=false&vCenter=true&width=560&lines=ing.+en+sistemas+de+informaci%C3%B3n;construyendo+velora+%2F%2F+ids+con+ml" alt="ing. en sistemas de información" />
 
 <br/><br/>
 
@@ -76,12 +76,12 @@ Construyo software, administro servidores y me enfoco en seguridad defensiva. Fu
 <br/><br/>
 
 <table>
-<tr><td><b>VELORA</b></td><td>IA defensiva: detección de intrusos con ML y bloqueo automático</td><td align="center"><sub>en desarrollo</sub></td></tr>
-<tr><td><b>SunCity</b></td><td>Islas de calor urbano en Sonora · NASA Space Apps 2026</td><td align="center"><a href="https://suncity.2a2gcompany.com">ver</a></td></tr>
-<tr><td><b>Menubly</b></td><td>Menús digitales para restaurantes (QR / NFC)</td><td align="center"><a href="https://menubly.2a2gcompany.com">ver</a></td></tr>
-<tr><td><b>Misión Copechi</b></td><td>Juego pixel-art educativo para niños · hackathon</td><td align="center"><a href="https://github.com/MarioJavaScript/Copechi">repo</a></td></tr>
-<tr><td><b>Nexora</b></td><td>Survival cooperativo en primera persona · C++</td><td align="center"><sub>en desarrollo</sub></td></tr>
-<tr><td><b>2A2G</b></td><td>Sistemas a la medida, puntos de venta y web</td><td align="center"><a href="https://2a2gcompany.com">ver</a></td></tr>
+<tr><td><b>VELORA</b></td><td>IA defensiva: detección de intrusos con ML y bloqueo automático</td><td><sub>en desarrollo</sub></td></tr>
+<tr><td><b>SunCity</b></td><td>Islas de calor urbano en Sonora · NASA Space Apps 2026</td><td><a href="https://suncity.2a2gcompany.com">ver</a></td></tr>
+<tr><td><b>Menubly</b></td><td>Menús digitales para restaurantes (QR / NFC)</td><td><a href="https://menubly.2a2gcompany.com">ver</a></td></tr>
+<tr><td><b>Misión Copechi</b></td><td>Juego pixel-art educativo para niños · hackathon</td><td><a href="https://github.com/MarioJavaScript/Copechi">repo</a></td></tr>
+<tr><td><b>Nexora</b></td><td>Survival cooperativo en primera persona · C++</td><td><sub>en desarrollo</sub></td></tr>
+<tr><td><b>2A2G</b></td><td>Sistemas a la medida, puntos de venta y web</td><td><a href="https://2a2gcompany.com">ver</a></td></tr>
 </table>
 
 <br/>
